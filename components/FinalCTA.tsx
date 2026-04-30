@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function FinalCTA() {
   return (
-    <section className="relative py-24 md:py-32 px-4 sm:px-6 overflow-hidden">
+    <section className="relative py-14 md:py-20 px-4 sm:px-6 overflow-hidden">
       {/* Animated gradient background */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-950/80 via-[#050510] to-purple-950/60 animate-gradient" />

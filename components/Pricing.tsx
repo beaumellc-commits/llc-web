@@ -23,7 +23,7 @@ const Check = () => (
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="relative py-24 md:py-32 px-4 sm:px-6">
+    <section id="pricing" className="relative py-14 md:py-20 px-4 sm:px-6">
       {/* Background */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[700px] bg-indigo-600/8 rounded-full blur-[130px]" />
@@ -41,7 +41,7 @@ export default function Pricing() {
           whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="text-center mb-14"
+          className="text-center mb-8"
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass border border-indigo-500/20 text-sm text-indigo-300 font-medium mb-5">
             Une seule offre. Tout inclus.

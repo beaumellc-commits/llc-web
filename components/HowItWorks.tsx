@@ -78,7 +78,7 @@ export default function HowItWorks() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section id="how-it-works" className="relative py-24 md:py-32 px-4 sm:px-6">
+    <section id="how-it-works" className="relative py-14 md:py-20 px-4 sm:px-6">
       {/* Background */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-purple-950/8 to-transparent" />
@@ -91,7 +91,7 @@ export default function HowItWorks() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-20"
+          className="text-center mb-10"
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass border border-cyan-500/20 text-sm text-cyan-300 font-medium mb-5">
             Processus simplifié

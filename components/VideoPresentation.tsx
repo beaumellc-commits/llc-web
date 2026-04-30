@@ -18,7 +18,7 @@ export default function VideoPresentation() {
   const opacity = useTransform(scrollYProgress, [0, 0.15, 0.85, 1], [0, 1, 1, 0]);
 
   return (
-    <section className="relative py-24 md:py-36 px-4 sm:px-6 overflow-hidden">
+    <section className="relative py-12 md:py-16 px-4 sm:px-6 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-indigo-950/10 to-transparent" />
@@ -41,7 +41,7 @@ export default function VideoPresentation() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.7 }}
-          className="text-center mb-14"
+          className="text-center mb-8"
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass border border-blue-500/20 text-sm text-blue-300 font-medium mb-5">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" className="text-blue-400">

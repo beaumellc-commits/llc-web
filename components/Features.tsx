@@ -89,7 +89,7 @@ export default function Features() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section id="features" className="relative py-24 md:py-32 px-4 sm:px-6">
+    <section id="features" className="relative py-14 md:py-20 px-4 sm:px-6">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-950/5 to-transparent pointer-events-none" />
 
@@ -100,7 +100,7 @@ export default function Features() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-10"
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass border border-purple-500/20 text-sm text-purple-300 font-medium mb-5">
             Tout ce dont vous avez besoin

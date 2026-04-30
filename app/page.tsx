@@ -13,7 +13,7 @@ import StickyBottomCTA from "@/components/StickyBottomCTA";
 
 export default function Home() {
   return (
-    <main className="relative bg-[#050510] pb-24">
+    <main className="relative bg-[#050510] pb-20">
       <ScrollProgressBar />
       <Navbar />
       <Hero />

@@ -11,7 +11,7 @@ const trustBadges = [
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-4 sm:px-6">
+    <section className="relative min-h-[85vh] flex flex-col items-center justify-center overflow-hidden px-4 sm:px-6 pb-8">
       {/* Animated gradient background */}
       <div className="absolute inset-0 bg-[#050510]">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-950/60 via-[#050510] to-purple-950/40 animate-gradient" />

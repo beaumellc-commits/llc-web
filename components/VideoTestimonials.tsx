@@ -214,7 +214,7 @@ function VideoCard({ t, index }: { t: typeof videoTestimonials[0]; index: number
 
 export default function VideoTestimonials() {
   return (
-    <section className="relative py-24 md:py-32 px-4 sm:px-6 overflow-hidden">
+    <section className="relative py-14 md:py-20 px-4 sm:px-6 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-purple-950/8 to-transparent" />
@@ -232,7 +232,7 @@ export default function VideoTestimonials() {
           whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="text-center mb-16"
+          className="text-center mb-10"
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass border border-red-500/20 text-sm text-red-300 font-medium mb-5">
             <motion.span

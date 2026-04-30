@@ -82,7 +82,7 @@ export default function Testimonials() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section className="relative py-24 md:py-32 px-4 sm:px-6">
+    <section className="relative py-14 md:py-20 px-4 sm:px-6">
       {/* Background */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-purple-600/8 rounded-full blur-[120px]" />
@@ -96,7 +96,7 @@ export default function Testimonials() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-10"
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass border border-amber-500/20 text-sm text-amber-300 font-medium mb-5">
             ★ Adoré par les fondateurs du monde entier
@@ -116,7 +116,7 @@ export default function Testimonials() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-16"
+          className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-10"
         >
           {stats.map((stat) => (
             <div key={stat.label} className="glass rounded-2xl border border-white/8 p-5 text-center">
