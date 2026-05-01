@@ -18,7 +18,7 @@ export default function VideoPresentation() {
   const opacity = useTransform(scrollYProgress, [0, 0.15, 0.85, 1], [0, 1, 1, 0]);
 
   return (
-    <section className="relative py-12 md:py-16 px-4 sm:px-6 overflow-hidden">
+    <section className="relative pt-6 pb-12 md:pt-8 md:pb-16 px-4 sm:px-6 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-indigo-950/10 to-transparent" />
@@ -47,7 +47,7 @@ export default function VideoPresentation() {
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" className="text-blue-400">
               <path d="M8 5v14l11-7z"/>
             </svg>
-            Découvrez Liberty Scale en 2 minutes
+            🇺🇸 Découvrez Liberty Scale en 2 minutes
           </div>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-5">
             Avant de réserver un appel,{" "}

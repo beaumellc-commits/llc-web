@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import StatsTicker from "@/components/StatsTicker";
 import VideoPresentation from "@/components/VideoPresentation";
+import StatsTicker from "@/components/StatsTicker";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
 import FounderSection from "@/components/FounderSection";
@@ -21,8 +21,8 @@ export default function Home() {
       <ScrollProgressBar />
       <Navbar />
       <Hero />
-      <StatsTicker />
       <VideoPresentation />
+      <StatsTicker />
       <Features />
       <HowItWorks />
       <FounderSection />

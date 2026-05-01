@@ -14,6 +14,8 @@ const items = [
   "🔒 Zéro frais caché",
   "📞 Support inclus 7j/7",
   "🇺🇸 Delaware & Wyoming",
+  "🗽 Société américaine officielle",
+  "🏦 Compte bancaire US en ligne",
 ];
 
 // Double the list for seamless loop

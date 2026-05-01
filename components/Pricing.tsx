@@ -97,8 +97,13 @@ export default function Pricing() {
 
               {/* Left — info */}
               <div className="flex-1">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white text-xs font-bold mb-5 shadow-lg shadow-blue-900/30">
-                  ⚡ Pack Complet Liberty Scale
+                <div className="flex items-center gap-2 mb-5">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gradient-to-r from-pink-600 to-purple-600 text-white text-xs font-bold shadow-lg shadow-pink-900/30">
+                    ⚡ Pack Complet Liberty Scale
+                  </div>
+                  <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-white/15 bg-white/5 text-xs font-semibold text-white/70">
+                    🇺🇸 Société US officielle
+                  </div>
                 </div>
 
                 <h3 className="text-3xl md:text-4xl font-bold text-white mb-3 leading-tight">

@@ -101,6 +101,37 @@ export default function Hero() {
       {/* Planet arc at bottom */}
       <PlanetArc />
 
+      {/* Floating US elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
+        <motion.div
+          animate={{ y: [0, -14, 0], rotate: [0, 2, 0] }}
+          transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          className="absolute top-[18%] right-[8%] w-16 h-16 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm flex items-center justify-center text-3xl shadow-lg"
+        >
+          🇺🇸
+        </motion.div>
+        <motion.div
+          animate={{ y: [0, 12, 0], rotate: [0, -2, 0] }}
+          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          className="absolute top-[30%] left-[6%] w-14 h-14 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm flex items-center justify-center text-2xl shadow-lg"
+        >
+          🏛️
+        </motion.div>
+        <motion.div
+          animate={{ y: [0, -10, 0] }}
+          transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 3 }}
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          className="absolute top-[55%] right-[5%] w-12 h-12 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm flex items-center justify-center text-xl shadow-lg"
+        >
+          ⚡
+        </motion.div>
+      </div>
+
       {/* Content */}
       <div className="relative z-10 text-center max-w-5xl mx-auto px-6 pt-28 pb-16">
         {/* Badge */}
@@ -111,7 +142,7 @@ export default function Hero() {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/15 bg-white/5 backdrop-blur-sm text-sm text-white/70 font-medium mb-8"
         >
           <span className="w-1.5 h-1.5 rounded-full bg-pink-400 animate-pulse" />
-          ✦ Service LLC américaine n°1 pour les Français
+          🇺🇸 Service LLC américaine n°1 pour les Français
         </motion.div>
 
         {/* Headline */}
@@ -211,7 +242,7 @@ export default function Hero() {
           transition={{ delay: 0.55, duration: 0.8 }}
         >
           <p className="text-white/22 text-xs uppercase tracking-[0.22em] font-semibold mb-5">
-            Compatible avec les meilleures plateformes
+            🇺🇸 Plateformes US débloquées avec votre LLC
           </p>
           <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12">
             {platforms.map((name, i) => (

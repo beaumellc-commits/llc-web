@@ -16,7 +16,7 @@ const steps = [
       </svg>
     ),
     color: "blue",
-    detail: "Delaware · Wyoming",
+    detail: "🇺🇸 Delaware · Wyoming",
   },
   {
     number: "02",
@@ -45,7 +45,7 @@ const steps = [
       </svg>
     ),
     color: "cyan",
-    detail: "Stripe · Payoneer · Wise",
+    detail: "🛍️ Shopify · Stripe · Wise",
   },
 ];
 
