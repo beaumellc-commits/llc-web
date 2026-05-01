@@ -13,7 +13,6 @@ import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import { ScrollProgressBar } from "@/components/ScrollReveal";
 import StickyBottomCTA from "@/components/StickyBottomCTA";
-import LiveProof from "@/components/LiveProof";
 
 export default function Home() {
   return (
@@ -33,7 +32,6 @@ export default function Home() {
       <FinalCTA />
       <Footer />
       <StickyBottomCTA />
-      <LiveProof />
     </main>
   );
 }
