@@ -46,17 +46,7 @@ export default function Pricing() {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass border border-indigo-500/20 text-sm text-indigo-300 font-medium mb-5">
             Une seule offre. Tout inclus.
           </div>
-          {/* Urgency badge */}
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <motion.div
-              animate={{ scale: [1, 1.05, 1] }}
-              transition={{ duration: 2, repeat: Infinity }}
-              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/25 text-sm text-amber-300 font-semibold"
-            >
-              <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
-              ⚠️ Il reste 3 accompagnements disponibles ce mois-ci
-            </motion.div>
-          </div>
+
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-5">
             Votre LLC américaine{" "}
             <span className="gradient-text">en moins de 7 jours.</span>
