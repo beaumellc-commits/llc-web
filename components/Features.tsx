@@ -55,19 +55,19 @@ const features = [
   },
   {
     icon: (
-      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" className="text-indigo-400">
-        <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
-        <path d="M2 12h20" stroke="currentColor" strokeWidth="2"/>
-        <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" stroke="currentColor" strokeWidth="2"/>
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" className="text-emerald-400">
+        <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" strokeWidth="2"/>
+        <path d="M16 10a4 4 0 01-8 0" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    title: "Fait pour les fondateurs mondiaux",
+    title: "Shopify Payments & E-commerce",
     description:
-      "Processus 100% à distance. Que vous soyez en Europe, Asie, Afrique ou au Moyen-Orient — Liberty Scale fonctionne pour vous, où que vous soyez.",
-    gradient: "from-indigo-500/10 to-indigo-600/5",
-    glow: "shadow-indigo-500/10",
-    border: "hover:border-indigo-500/30",
-    accent: "text-indigo-400",
+      "Débloquez Shopify Payments US, Amazon Seller, Stripe et Payoneer grâce à votre LLC. Acceptez les paiements du monde entier sans restrictions.",
+    gradient: "from-emerald-500/10 to-emerald-600/5",
+    glow: "shadow-emerald-500/10",
+    border: "hover:border-emerald-500/30",
+    accent: "text-emerald-400",
     tag: null,
   },
 ];

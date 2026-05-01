@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useMemo } from "react";
 
-const platforms = ["Stripe", "Mercury", "Wise", "Amazon", "Payoneer"];
+const platforms = ["Stripe", "Shopify", "Mercury", "Wise", "Amazon", "Payoneer"];
 
 /* ─── Star field ──────────────────────────────────────────── */
 function StarField() {

@@ -10,7 +10,7 @@ const features = [
   "Obtention de l'EIN (numéro fiscal US)",
   "Ouverture de compte bancaire américain",
   "Déclaration BOI (obligatoire depuis 2024)",
-  "Accès Stripe, Payoneer, Wise, Amazon",
+  "Accès Stripe, Shopify Payments, Payoneer, Wise",
   "Support dédié jusqu'à l'activation complète",
   "Livraison en moins de 7 jours",
 ];

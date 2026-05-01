@@ -8,6 +8,7 @@ const items = [
   "🌍 40+ pays représentés",
   "⭐ Note 4.9 / 5",
   "✅ 100% légal & conforme",
+  "🛍️ Shopify Payments débloqué",
   "💳 Stripe US activé en 5 jours",
   "🏦 Compte Mercury ouvert",
   "🔒 Zéro frais caché",

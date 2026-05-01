@@ -5,6 +5,10 @@ import { useState } from "react";
 
 const faqs = [
   {
+    q: "Puis-je activer Shopify Payments avec ma LLC américaine ?",
+    a: "Oui, c'est l'un des avantages les plus recherchés. Shopify Payments n'est disponible qu'aux États-Unis, et votre LLC vous donne accès à ce système de paiement. Vous pouvez également ouvrir un compte Amazon Seller US, Stripe US, et Payoneer — tout ça grâce à votre entité légale américaine. Nous guidons chaque client dans ces démarches jusqu'à l'activation complète.",
+  },
+  {
     q: "Combien de temps faut-il pour créer une LLC ?",
     a: "En moyenne, nous livrons une LLC complète (statuts déposés + EIN + compte bancaire) en moins de 7 jours ouvrés. Dans certains cas, le Delaware peut être prêt en 48h. Vous recevez un rapport de progression à chaque étape.",
   },
