@@ -4,9 +4,11 @@ import StatsTicker from "@/components/StatsTicker";
 import VideoPresentation from "@/components/VideoPresentation";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
+import FounderSection from "@/components/FounderSection";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import VideoTestimonials from "@/components/VideoTestimonials";
+import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import { ScrollProgressBar } from "@/components/ScrollReveal";
@@ -23,9 +25,11 @@ export default function Home() {
       <VideoPresentation />
       <Features />
       <HowItWorks />
+      <FounderSection />
       <Pricing />
       <Testimonials />
       <VideoTestimonials />
+      <FAQ />
       <FinalCTA />
       <Footer />
       <StickyBottomCTA />

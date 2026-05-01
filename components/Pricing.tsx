@@ -46,6 +46,17 @@ export default function Pricing() {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass border border-indigo-500/20 text-sm text-indigo-300 font-medium mb-5">
             Une seule offre. Tout inclus.
           </div>
+          {/* Urgency badge */}
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <motion.div
+              animate={{ scale: [1, 1.05, 1] }}
+              transition={{ duration: 2, repeat: Infinity }}
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/25 text-sm text-amber-300 font-semibold"
+            >
+              <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
+              ⚠️ Il reste 3 accompagnements disponibles ce mois-ci
+            </motion.div>
+          </div>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-5">
             Votre LLC américaine{" "}
             <span className="gradient-text">en moins de 7 jours.</span>
@@ -148,7 +159,8 @@ export default function Pricing() {
                     href="/rdv"
                     whileHover={{ scale: 1.04, boxShadow: "0 0 40px rgba(99,102,241,0.5)" }}
                     whileTap={{ scale: 0.97 }}
-                    className="relative overflow-hidden w-full block text-center font-bold py-4 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white shadow-lg shadow-blue-900/40 transition-all duration-300"
+                    className="relative overflow-hidden w-full block text-center font-bold py-4 rounded-xl text-white shadow-lg transition-all duration-300"
+                    style={{ background: "linear-gradient(135deg, #ec4899, #a855f7, #6366f1)", boxShadow: "0 0 30px rgba(236,72,153,0.4)" }}
                   >
                     <motion.div
                       className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full"
