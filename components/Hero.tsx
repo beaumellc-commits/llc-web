@@ -167,7 +167,7 @@ export default function Hero() {
           className="text-lg sm:text-xl text-white/45 max-w-2xl mx-auto mb-12 leading-relaxed"
         >
           Liberty Scale crée votre LLC américaine depuis n&apos;importe où dans
-          le monde. Delaware ou Wyoming — résultat garanti en moins de 7 jours.
+          le monde. Nouveau-Mexique (New Mexico) — résultat garanti en moins de 7 jours.
         </motion.p>
 
         {/* CTAs */}

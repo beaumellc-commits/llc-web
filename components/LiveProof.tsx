@@ -4,12 +4,12 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const notifications = [
-  { name: "Thomas L.", city: "Paris 🇫🇷", action: "vient de créer sa LLC Delaware", time: "il y a 2 min" },
+  { name: "Thomas L.", city: "Paris 🇫🇷", action: "vient de créer sa LLC New Mexico", time: "il y a 2 min" },
   { name: "Camille D.", city: "Lyon 🇫🇷", action: "a obtenu son EIN en 48h", time: "il y a 5 min" },
   { name: "Maxime B.", city: "Bordeaux 🇫🇷", action: "a ouvert son compte Mercury", time: "il y a 8 min" },
-  { name: "Julie M.", city: "Marseille 🇫🇷", action: "vient de créer sa LLC Wyoming", time: "il y a 12 min" },
+  { name: "Julie M.", city: "Marseille 🇫🇷", action: "vient de créer sa LLC New Mexico", time: "il y a 12 min" },
   { name: "Antoine R.", city: "Nantes 🇫🇷", action: "a activé Stripe US", time: "il y a 15 min" },
-  { name: "Sophie G.", city: "Toulouse 🇫🇷", action: "vient de créer sa LLC Delaware", time: "il y a 19 min" },
+  { name: "Sophie G.", city: "Toulouse 🇫🇷", action: "vient de créer sa LLC New Mexico", time: "il y a 19 min" },
   { name: "Lucas P.", city: "Montpellier 🇫🇷", action: "a obtenu son EIN aujourd'hui", time: "il y a 22 min" },
   { name: "Emma V.", city: "Rennes 🇫🇷", action: "a ouvert son compte Wise US", time: "il y a 27 min" },
 ];

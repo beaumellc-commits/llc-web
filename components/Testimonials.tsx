@@ -37,7 +37,7 @@ const testimonials = [
     location: "🇫🇷 Marseille",
     avatar: "JM",
     avatarColor: "from-emerald-500 to-teal-600",
-    text: "Grâce à ma LLC Wyoming, j'ai pu ouvrir mon compte Stripe et Payoneer sans aucun problème. L'équipe m'a accompagnée jusqu'au bout. Un service vraiment sérieux.",
+    text: "Grâce à ma LLC New Mexico, j'ai pu ouvrir mon compte Stripe et Payoneer sans aucun problème. L'équipe m'a accompagnée jusqu'au bout. Un service vraiment sérieux.",
     rating: 5,
   },
   {
@@ -46,7 +46,7 @@ const testimonials = [
     location: "🇫🇷 Nantes",
     avatar: "AR",
     avatarColor: "from-orange-500 to-red-600",
-    text: "LLC Delaware créée, EIN obtenu, compte bancaire US ouvert — tout en 6 jours. Mon compte vendeur Amazon US validé derrière. Liberty Scale, c'est du concret.",
+    text: "LLC New Mexico créée, EIN obtenu, compte bancaire US ouvert — tout en 6 jours. Mon compte vendeur Amazon US validé derrière. Liberty Scale, c'est du concret.",
     rating: 5,
   },
   {

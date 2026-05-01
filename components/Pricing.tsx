@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 const features = [
-  "Création LLC Delaware ou Wyoming",
+  "Création LLC Nouveau-Mexique (New Mexico)",
   "Agent enregistré (1 an inclus)",
   "Accord d'exploitation rédigé",
   "Statuts constitutifs déposés",

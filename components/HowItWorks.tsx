@@ -8,7 +8,7 @@ const steps = [
     number: "01",
     title: "Choisissez votre État",
     description:
-      "Delaware ou Wyoming ? Nous vous aidons à choisir l'État adapté à vos objectifs, vos besoins fiscaux et vos plans à long terme. Ça prend 5 minutes.",
+      "Nouveau-Mexique (New Mexico) ? Nous vous aidons à choisir l'État adapté à vos objectifs, vos besoins fiscaux et vos plans à long terme. Ça prend 5 minutes.",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-blue-400">
         <path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z" stroke="currentColor" strokeWidth="2"/>
@@ -16,7 +16,7 @@ const steps = [
       </svg>
     ),
     color: "blue",
-    detail: "🇺🇸 Delaware · Wyoming",
+    detail: "🇺🇸 New Mexico (NM)",
   },
   {
     number: "02",

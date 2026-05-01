@@ -13,7 +13,7 @@ const features = [
     ),
     title: "LLC créée en 48h",
     description:
-      "Nous déposons votre LLC Delaware ou Wyoming en moins de 48 heures. Sans délais, sans confusion — juste une entité légale prête à opérer.",
+      "Nous déposons votre LLC Nouveau-Mexique (New Mexico) en moins de 48 heures. Sans délais, sans confusion — juste une entité légale prête à opérer.",
     gradient: "from-blue-500/10 to-blue-600/5",
     glow: "shadow-blue-500/10",
     border: "hover:border-blue-500/30",

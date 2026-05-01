@@ -13,7 +13,7 @@ const items = [
   "🏦 Compte Mercury ouvert",
   "🔒 Zéro frais caché",
   "📞 Support inclus 7j/7",
-  "🇺🇸 Delaware & Wyoming",
+  "🇺🇸 New Mexico (NM)",
   "🗽 Société américaine officielle",
   "🏦 Compte bancaire US en ligne",
 ];

@@ -12,7 +12,7 @@ const stats = [
 const credibility = [
   "Expert en création de sociétés américaines pour non-résidents",
   "Accompagnement de fondateurs dans 40+ pays",
-  "Partenaire agréé avec des agents enregistrés au Delaware & Wyoming",
+  "Partenaire agréé avec des agents enregistrés au New Mexico (NM)",
   "Processus 100% conforme aux régulations FINCEN (BOI 2024)",
 ];
 

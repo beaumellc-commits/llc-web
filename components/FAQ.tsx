@@ -10,15 +10,15 @@ const faqs = [
   },
   {
     q: "Combien de temps faut-il pour créer une LLC ?",
-    a: "En moyenne, nous livrons une LLC complète (statuts déposés + EIN + compte bancaire) en moins de 7 jours ouvrés. Dans certains cas, le Delaware peut être prêt en 48h. Vous recevez un rapport de progression à chaque étape.",
+    a: "En moyenne, nous livrons une LLC complète (statuts déposés + EIN + compte bancaire) en moins de 7 jours ouvrés. Dans certains cas, le New Mexico peut être prêt en 48h. Vous recevez un rapport de progression à chaque étape.",
   },
   {
     q: "Dois-je me déplacer aux États-Unis ?",
     a: "Non, absolument pas. Tout le processus se fait à distance. Vous signez les documents électroniquement, et nous gérons toutes les démarches administratives avec les autorités américaines en votre nom.",
   },
   {
-    q: "Quelle est la différence entre Delaware et Wyoming ?",
-    a: "Le Delaware est le choix classique pour lever des fonds (90% des startups US y sont domiciliées) et pour les activités digitales. Le Wyoming offre une meilleure confidentialité (pas de publication des noms des membres), aucune taxe d'État sur les revenus, et des frais annuels plus bas. On vous guide pour choisir le bon État selon votre situation.",
+    q: "Pourquoi le Nouveau-Mexique (New Mexico) ?",
+    a: "Le New Mexico est l'un des États les plus avantageux pour les non-résidents : aucun rapport annuel obligatoire (ce qui réduit considérablement les frais de maintenance), confidentialité totale des membres (aucune publication publique), frais de création très bas, et aucune taxe d'État sur les revenus pour les membres non-résidents. C'est l'État idéal pour les entrepreneurs français qui veulent une LLC propre, économique et efficace.",
   },
   {
     q: "C'est légal depuis la France / mon pays ?",
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: "Y a-t-il des frais annuels après la création ?",
-    a: "Oui, chaque LLC a des frais de maintenance annuels. Au Delaware, c'est environ 300$/an (franchise tax + agent enregistré). Au Wyoming, environ 130-150$/an. Ces frais sont directement payés à l'État, en dehors de nos honoraires, et nous vous prévenons avant chaque échéance.",
+    a: "Oui, mais c'est l'un des avantages du New Mexico : il n'y a pas de rapport annuel obligatoire, ce qui supprime une grosse part des frais récurrents. Le seul frais annuel est celui de l'agent enregistré (environ 50-100$/an). C'est bien moins qu'au Delaware (~300$/an) ou au Wyoming (~150$/an). Nous vous prévenons avant chaque échéance.",
   },
   {
     q: "Que se passe-t-il si j'ai des questions après la création ?",
