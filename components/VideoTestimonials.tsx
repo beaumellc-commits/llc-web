@@ -51,10 +51,10 @@ const videoTestimonials = [
 ];
 
 const thumbnailGradients: Record<string, string> = {
-  blue: "from-blue-900/80 via-indigo-900/50 to-[#050510]",
-  purple: "from-purple-900/80 via-pink-900/50 to-[#050510]",
-  cyan: "from-cyan-900/80 via-blue-900/50 to-[#050510]",
-  emerald: "from-emerald-900/80 via-teal-900/50 to-[#050510]",
+  blue: "from-blue-900/80 via-indigo-900/50 to-[#000000]",
+  purple: "from-purple-900/80 via-pink-900/50 to-[#000000]",
+  cyan: "from-cyan-900/80 via-blue-900/50 to-[#000000]",
+  emerald: "from-emerald-900/80 via-teal-900/50 to-[#000000]",
 };
 
 const glowColors: Record<string, string> = {

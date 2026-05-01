@@ -22,7 +22,7 @@ export default function BookingPage() {
     <section className="relative pt-32 pb-24 px-4 sm:px-6 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-950/50 via-[#050510] to-purple-950/30" />
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-950/50 via-[#000000] to-purple-950/30" />
         <motion.div
           animate={{ scale: [1, 1.15, 1], opacity: [0.2, 0.35, 0.2] }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
@@ -125,7 +125,7 @@ export default function BookingPage() {
             >
               <div className="flex -space-x-2">
                 {["TL","CD","AR","JM"].map((a, i) => (
-                  <div key={i} className={`w-9 h-9 rounded-full border-2 border-[#050510] flex items-center justify-center text-xs font-bold text-white ${["bg-blue-600","bg-purple-600","bg-cyan-600","bg-emerald-600"][i]}`}>
+                  <div key={i} className={`w-9 h-9 rounded-full border-2 border-[#000000] flex items-center justify-center text-xs font-bold text-white ${["bg-blue-600","bg-purple-600","bg-cyan-600","bg-emerald-600"][i]}`}>
                     {a}
                   </div>
                 ))}

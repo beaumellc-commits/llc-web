@@ -76,7 +76,7 @@ export default function VideoPresentation() {
 
             {/* Fake video thumbnail / placeholder */}
             {!playing ? (
-              <div className="relative w-full h-full bg-gradient-to-br from-[#0a0a1f] via-[#0d0d2b] to-[#050510] flex items-center justify-center">
+              <div className="relative w-full h-full bg-gradient-to-br from-[#0a0a1f] via-[#0d0d2b] to-[#000000] flex items-center justify-center">
 
                 {/* Grid lines */}
                 <div
@@ -150,7 +150,7 @@ export default function VideoPresentation() {
                 </motion.button>
 
                 {/* Bottom overlay */}
-                <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#050510]/80 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#000000]/80 to-transparent" />
               </div>
             ) : (
               /* Embedded video — replace src with your actual video URL */

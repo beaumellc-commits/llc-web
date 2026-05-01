@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import StatsTicker from "@/components/StatsTicker";
 import VideoPresentation from "@/components/VideoPresentation";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
@@ -10,13 +11,15 @@ import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import { ScrollProgressBar } from "@/components/ScrollReveal";
 import StickyBottomCTA from "@/components/StickyBottomCTA";
+import LiveProof from "@/components/LiveProof";
 
 export default function Home() {
   return (
-    <main className="relative bg-[#050510] pb-20">
+    <main className="relative bg-black pb-20">
       <ScrollProgressBar />
       <Navbar />
       <Hero />
+      <StatsTicker />
       <VideoPresentation />
       <Features />
       <HowItWorks />
@@ -26,6 +29,7 @@ export default function Home() {
       <FinalCTA />
       <Footer />
       <StickyBottomCTA />
+      <LiveProof />
     </main>
   );
 }

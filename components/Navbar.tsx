@@ -26,7 +26,7 @@ export default function Navbar() {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-[#050510]/80 backdrop-blur-xl border-b border-white/5 shadow-[0_4px_30px_rgba(0,0,0,0.5)]"
+          ? "bg-black/80 backdrop-blur-xl border-b border-white/5 shadow-[0_4px_30px_rgba(0,0,0,0.6)]"
           : "bg-transparent"
       }`}
     >
@@ -35,7 +35,7 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5 group">
             <div className="relative">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center shadow-lg shadow-blue-500/30 group-hover:shadow-blue-500/50 transition-shadow duration-300">
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-pink-500 to-purple-600 flex items-center justify-center shadow-lg shadow-pink-500/30 group-hover:shadow-pink-500/50 transition-shadow duration-300">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="text-white">
                   <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
                   <path d="M2 17l10 5 10-5" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
@@ -73,7 +73,8 @@ export default function Navbar() {
               href="#pricing"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
-              className="text-sm font-semibold bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white px-5 py-2.5 rounded-xl shadow-lg shadow-blue-900/30 transition-all duration-200"
+              className="text-sm font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 hover:from-pink-400 hover:via-purple-400 hover:to-indigo-400 text-white px-5 py-2.5 rounded-full shadow-lg shadow-pink-900/30 transition-all duration-200"
+            style={{ boxShadow: "0 0 20px rgba(236,72,153,0.35)" }}
             >
               Créer ma LLC
             </motion.a>
@@ -109,7 +110,7 @@ export default function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="md:hidden bg-[#050510]/95 backdrop-blur-xl border-t border-white/5 overflow-hidden"
+            className="md:hidden bg-[#000000]/95 backdrop-blur-xl border-t border-white/5 overflow-hidden"
           >
             <div className="px-6 py-6 flex flex-col gap-4">
               {navLinks.map((link, i) => (
@@ -131,7 +132,7 @@ export default function Navbar() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.25 }}
                 onClick={() => setMobileOpen(false)}
-                className="mt-2 text-center font-semibold bg-gradient-to-r from-blue-600 to-purple-600 text-white px-5 py-3 rounded-xl"
+                className="mt-2 text-center font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white px-5 py-3 rounded-full"
               >
                 Créer ma LLC
               </motion.a>

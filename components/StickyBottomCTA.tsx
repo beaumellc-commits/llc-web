@@ -24,7 +24,7 @@ export default function StickyBottomCTA() {
           className="fixed bottom-0 left-0 right-0 z-50 px-4 pb-4 pt-3"
         >
           {/* Blur backdrop */}
-          <div className="absolute inset-0 bg-[#050510]/80 backdrop-blur-xl border-t border-white/8" />
+          <div className="absolute inset-0 bg-[#000000]/80 backdrop-blur-xl border-t border-white/8" />
 
           <div className="relative max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
             {/* Left message */}
